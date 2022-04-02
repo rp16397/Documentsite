@@ -33,12 +33,13 @@ nav h1{
     /* border: 1px solid red; */
     padding: 8px 0;
     font-size: 28px;
+    width: 368px;
     background-color: #0F56B3;
     color: #ffffff;
     border-bottom: 3px solid #0F56B3;
     position: fixed;
     top: 0;
-    width: 368px;
+    left: 0;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
@@ -63,7 +64,6 @@ nav ul li:hover{
     /* border: 1px solid red; */
     flex: 1;
     margin: 0px 60px 0 382px;
-    /* border-right: 2px solid #616161; */
     padding: 20px 40px;
 }
 h2{
@@ -77,12 +77,13 @@ section{
     margin-bottom: 50px;
 }
 .main section article p{
-    margin: 20px 60px 20px 40px;
+    margin: 20px 20px 20px 40px;
 }
 .main section article li{
-    margin: 20px 60px 20px 40px;
+    margin: 20px 20px 20px 40px;
 }
 p, li{
     font-weight: 500;
     color: #616161;
+    text-align: justify;
 }
